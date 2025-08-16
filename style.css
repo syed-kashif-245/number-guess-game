@@ -1,0 +1,65 @@
+/* Step 1: Style the whole page */
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 100px; */
+    font-size: 10px;
+    height:100vh;
+    margin: 0;
+}
+.game{
+    background-color: white;
+    padding: 30px;
+    border: 3px;
+    border: solid;
+    border-radius: 10px;
+    border-color: #4CAF50;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+h1{
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#message {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+input {
+  width: 80%;
+  padding: 10px;
+  border: 2px solid #2196F3;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 5px;
+  transition: 0.3s;
+}
+
+#but {
+  background: #4CAF50;
+  color: white;
+}
+
+#but:hover {
+  background: #45a049;
+}
+#reset {
+  background: #f44336;
+  color: white;
+}
+#reset:hover {
+  background: #d32f2f;
+}
